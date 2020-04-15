@@ -1,0 +1,253 @@
+html, body, .cover {
+  height: 100%;  
+}
+
+ .cover {
+     background: url('img/vin.jpg') top left no-repeat;
+     background-size: cover;
+     display: table;
+     width: 100%;
+     box-shadow: inset 0 0 100px #000;
+     border-color: transparent;
+     border-width: 1000px;
+}
+
+.cover-text {
+    text-align: center;
+    color: rgba(0, 0, 70);
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+#logomoon {
+    position: absolute;
+    left: 20px;
+    border-radius: 0px 39px 43px 43px;
+    top: 15px;
+    
+}
+
+.btn {
+    background-color: #09417A;
+    border-color: rgba(9, 65, 122, 0.4);
+}
+
+.btn:hover {
+    box-shadow: inset 0 0 10px #333;
+    background-color: #09417A;
+    border-color: rgba(9, 65, 122, 0.4);
+}
+
+.btn:default {
+    background-color: #09417A;
+    border-color: rgba(9, 65, 122, 0.4);
+}
+
+.cover-text h1{
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px ;
+}
+
+nav.navbar-inverse {
+    background: rgba(9, 65, 122, 0.6);
+    border: none;
+}
+
+.navbar-brand p{
+    position: absolute;
+    left: 110px;
+    font-size: 25px;
+    color: white;
+}
+
+.testimonial {
+    background: #09417A;
+}
+
+blockquote {
+    text-align: center;
+    border: none;
+    margin: 0;
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    font-size: 32px;
+    color: white;
+}
+
+section {
+    padding: 100px 0px 100px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2_px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+    color: rgba(9, 65, 122, 0.9);;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2_px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+    margin-top: 60px;
+}
+
+p {
+   font-family: Georgia, Times, serif; 
+    font-size: 18px;
+}
+
+h2 + p {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#team {
+    color: white;
+    text-align: center;
+    background-color: #09417A; 
+}
+
+#team h2 {
+    color: white;
+}
+
+#cub3D {
+    background: url('img/cub3D.jpg') center no-repeat;
+    background-size: contain;
+    text-align: center;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#tds {
+    background: url('img/tds2.png') center no-repeat;
+    background-size: contain;
+    text-align: center;
+    height: 350px;
+    
+}
+
+div#triangle-hg {
+      width: 0;
+      height: 0;
+      border-top: 100px solid #09417A;
+      border-left: 100px solid transparent;
+    position: relative;
+    top: 36px;
+    left: calc(100% - 85px);
+    box-shadow: -4px 4px 3px #000;
+    
+    }
+
+#antic {
+    background: url('img/antic12.jpg') center no-repeat;
+    background-size: contain;
+    text-align: center;
+    height: 350px;
+}
+
+#why-us div div div {
+    background-color: #09417A;
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    box-shadow: 8px 8px 12px #000;
+}
+#why-us {
+    background: url('img/workspace.jpg') top left no-repeat;
+    background-size: cover;
+}
+#why-us h3{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+
+}
+
+#why-us p {
+    text-align: center;
+    padding: 0px 20px
+}
+
+div.pair{
+    background-color: #09417A; 
+    background-size: cover;
+}
+
+div#malt {
+    display: inline-block;
+    position: relative;
+    top: -16px;
+    border-radius: 9px;
+    width: 44px;
+    height: 44px;
+    background-color: #09417A;
+}
+
+div#malt img {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+}
+
+footer a {
+    color: 09417A;
+}
+
+@media only screen and ( max-width : 767px) {
+    .cover h1 {
+        font-size: 40px;
+    }
+    blockquote {
+        font-size: 20px;
+    }
+    section {
+        padding : 20px;
+    }
+    .small {
+    display: none;
+    }
+    #why-us div div div {
+    width: 90%;
+    margin-bottom: 20px;
+    }
+    .navbar-brand p{
+    position: relative;
+    left: 40%;
+    font-size: 25px;
+    color: white;
+    }
+    h2 {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 20px;        
+    }
+}
+
+@media only screen and ( min-width : 768px) {
+    .big {
+    display: none;
+    }
+    
+}
