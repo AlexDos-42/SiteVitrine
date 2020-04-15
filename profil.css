@@ -132,7 +132,6 @@ h2 + p {
     background-size: contain;
     text-align: center;
     height: 350px;
-    
 }
 
 div#triangle-hg {
@@ -199,6 +198,12 @@ div#malt img {
     top: 2px;
     left: 2px;
 }
+
+section#signup {
+   
+    box-shadow: inset 0px 5px 10px #333, inset 0px -5px 10px #333;
+}
+
 
 footer {
     background: #222;
