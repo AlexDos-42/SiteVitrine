@@ -97,8 +97,6 @@ h3 {
     font-size: 2_px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 0 60px;
-    margin-top: 60px;
 }
 
 p {
@@ -122,6 +120,8 @@ h2 + p {
     color: white;
 }
 
+
+
 #cub3D {
     background: url('img/cub3D.jpg') center no-repeat;
     background-size: contain;
@@ -137,11 +137,21 @@ h2 + p {
     height: 350px;
 }
 
+div.item p{
+   position: relative;
+    top: 20px;
+}
 
-#antic {
+div#antic {
     background: url('img/antic12.jpg') center no-repeat;
     background-size: contain;
     text-align: center;
+    height: 350px;   
+}
+
+div.cell {
+    display: table-cell;
+    vertical-align: middle;
     height: 350px;
 }
 
@@ -175,9 +185,6 @@ h2 + p {
      padding-bottom: 30px;
 }
 
-div.pair{
-    background-size: cover;
-}
 
 div#malt {
     display: inline-block;
@@ -220,9 +227,7 @@ footer a {
     blockquote {
         font-size: 20px;
     }
-    section {
-        padding : 20px;
-    }
+
     .small {
     display: none;
     }
@@ -243,6 +248,11 @@ footer a {
     h3 {
         margin-top: 20px;
         margin-bottom: 20px;        
+    }
+    div.cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 150px;
     }
 }
 
