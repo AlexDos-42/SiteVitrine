@@ -65,6 +65,8 @@ nav.navbar-inverse {
 
 .testimonial {
     background: #09417A;
+    background-image: radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.2), #09417A);
+  
 }
 
 blockquote {
@@ -113,6 +115,7 @@ h2 + p {
     color: white;
     text-align: center;
     background-color: #09417A; 
+    background-image: radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.6), #09417A);
 }
 
 #team h2 {
@@ -134,17 +137,6 @@ h2 + p {
     height: 350px;
 }
 
-div#triangle-hg {
-      width: 0;
-      height: 0;
-      border-top: 100px solid #09417A;
-      border-left: 100px solid transparent;
-    position: relative;
-    top: 36px;
-    left: calc(100% - 85px);
-    box-shadow: -4px 4px 3px #000;
-    
-    }
 
 #antic {
     background: url('img/antic12.jpg') center no-repeat;
@@ -158,28 +150,32 @@ div#triangle-hg {
     color: white;
     border-radius: 10px;
     width: 400px;
-    height: 350px;
+    height: auto;
     margin: auto;
     box-shadow: 8px 8px 12px #000;
+    border: solid 2px #333;
+    background-image: radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.4), #09417A);
 }
 #why-us {
     background: url('img/workspace.jpg') top left no-repeat;
     background-size: cover;
+    border: solid 2px #333;
 }
 #why-us h3{
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     border-bottom: solid;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #why-us p {
     text-align: center;
-    padding: 0px 20px
+    padding: 0px 20px;
+     padding-bottom: 30px;
 }
 
 div.pair{
-    background-color: #09417A; 
     background-size: cover;
 }
 
