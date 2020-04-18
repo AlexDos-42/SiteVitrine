@@ -250,11 +250,20 @@ footer a {
         margin-bottom: 20px;        
     }
     div.cell {
-    display: table-cell;
-    vertical-align: middle;
-    height: 150px;
+        display: table-cell;
+        vertical-align: middle;
+        height: 150px;
     }
 }
+
+
+
+    @keyframes mail {
+        0% { left: 0px; }
+        1000% { left: 100px; }
+
+    }
+
 
 @media only screen and ( min-width : 768px) {
     .big {
